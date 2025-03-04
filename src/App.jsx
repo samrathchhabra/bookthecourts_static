@@ -8,6 +8,7 @@ import { Toaster } from "react-hot-toast";
 import Faqs from "./Pages/Faqs";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndCondition from "./Pages/TermsAndCondition";
+import Contactus from "./Pages/Contactus";
 
 const App = () => {
   // console.log("auth user is here : ", user);
@@ -38,6 +39,7 @@ const App = () => {
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termsandcondition" element={<TermsAndCondition />} />
+        <Route path="/contactus" element={<Contactus />} />
       </Routes>
       <Toaster />
     </div>
