@@ -5,7 +5,7 @@ import article1 from "../assets/article_1.png";
 import article2 from "../assets/article_2.png";
 import article3 from "../assets/article_3.png";
 import avatar1 from "../assets/avatar.png";
-import footerlogo from "../assets/book_the_court.png";
+import footerlogo from "../assets/nav_logo.png";
 import { Facebook, Linkedin, Instagram } from "lucide-react";
 
 import Slider from "react-slick";
@@ -55,10 +55,14 @@ const Footer = () => {
     <div className=" flex flex-col">
       {/* Footer */}
       <footer className="bg-[#f2f2f2] py-8 px-4 md:px-8">
-        <div className="max-w-[1500px] mx-auto flex flex-col md:flex-row mt-10 items-center md:items-start md:justify-between gap-6 md:gap-8">
+        <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row mt-10 items-center md:items-start md:justify-between gap-6 md:gap-8">
           {/* Footer Logo */}
-          <div className="w-[30rem] h-[6rem] flex justify-center md:justify-start">
-            <img src={footerlogo} alt="Book The Court" className="w-full" />
+          <div className="w-[32rem] h-[6rem] flex justify-center md:justify-start bg-black rounded-md">
+            <img
+              src={footerlogo}
+              alt="Book The Court"
+              className="w-full p-2 rounded-md"
+            />
           </div>
 
           {/* Footer Sections */}
